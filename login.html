@@ -70,6 +70,9 @@
 						<div class="col-md-50">
 							<div class="form-group">
 								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+								$("email").focus(function(){
+                                                                 $(this).css("background-color", "#cccccc");
+                                                                 });
 							</div>
 							<div class="form-group">
 								<input type="password" class="form-control" id="pass" name="pass" placeholder="Enter password">
